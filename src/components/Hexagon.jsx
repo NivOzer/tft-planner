@@ -3,10 +3,17 @@ import React from 'react'
 export default function Hexagon() {
   return (
     <>
-        <div className="relative w-[104px] h-[60px] bg-black">
-            <div className="absolute top-[-30px] border-l-[52px] border-r-[52px] border-transparent border-b-[30px] border-b-black"></div>
-            <div className="absolute bottom-[-30px] border-l-[52px] border-r-[52px] border-transparent border-t-[30px] border-t-black"></div>
-        </div>
+    <svg
+        width="104"
+        height="120"
+        viewBox="0 0 104 120"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <polygon
+            points="52,0 104,30 104,90 52,120 0,90 0,30"
+            fill="#6C6"
+        />
+    </svg>
     </>
   )
 }
