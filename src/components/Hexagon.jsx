@@ -4,13 +4,13 @@ export default function Hexagon() {
   return (
     <>
     <svg
-        width="104"
-        height="120"
-        viewBox="0 0 104 120"
+        width="100"
+        height="115"
+        viewBox="0 0 100 115"
         xmlns="http://www.w3.org/2000/svg"
     >
         <polygon
-            points="52,0 104,30 104,90 52,120 0,90 0,30"
+            points="50,0 100,28.87 100,86.13 50,115 0,86.13 0,28.87"
             fill="grey"
         />
     </svg>

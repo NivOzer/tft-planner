@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
 import './App.css'
-import Hexagon from './components/Hexagon'
-import HexagonRow from './components/HexagonRow'
+import HexagonGrid from './components/HexagonGrid'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <HexagonRow/>
+      <HexagonGrid/>
     </>
   )
 }
